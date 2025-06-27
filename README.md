@@ -1,5 +1,8 @@
 # i made it
 ```  python
+
+# june 25
+
 course = "vinci"
 print(course.upper())
 
@@ -15,7 +18,7 @@ print(course.replace('kind', 'bad'))
 course = "to break free"
 print('free' in course)
 
-``` python
+```  python
 
 # june 27
 
