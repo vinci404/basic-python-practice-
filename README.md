@@ -17,6 +17,8 @@ print('free' in course)
 
 ``` python
 
+# june 27
+
 # arithmetic operation 
 print(20 + 5)
 print(100 - 5)
