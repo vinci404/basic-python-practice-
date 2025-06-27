@@ -18,7 +18,7 @@ print(course.replace('kind', 'bad'))
 course = "to break free"
 print('free' in course)
 
-```  python
+
 
 # june 27
 
