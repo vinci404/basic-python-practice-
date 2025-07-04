@@ -139,3 +139,114 @@ if new_student:
 	print("freshman")
 else:
 	print("what the hell")
+
+
+# july 4
+
+# while loops are used to repeat the block of code
+
+i = 1
+while i < 5:
+	print(i)
+	i = i + 1
+
+# it can be also multiply a number by string
+i = 1
+while i <= 5:
+	print(i * '*')
+	i = i + 1
+	
+# let me try
+# waitttt
+# should I always use "i"??? let me try a different one
+z = 10
+while z <= 15:
+	print(z)
+	z = z + 2
+# it worksssssss
+
+w = 1
+while w <= 5:
+	print(w * 'z')
+	w = w + 1
+
+# [list]
+names = ["vinci", "meow", "arff", "vinnyyyyyyy"]
+print(names)
+print(names[0])  # this will show 'vinci' bc it is the first index
+print(names[-1])  # this will show the lasttt
+# for misspelled spelling
+names[0] = "vinciey"
+print(names)
+# customize print
+print(names[0:3])   # the elements always starts with zero, this should execute vinci to arff (start:end)
+
+
+# list methods
+# .append for adding in end
+# .insert for add ons
+# .remove for erasing certain part
+# .clear for removing all
+# .in for finding inside
+# (Len()) it is a function, for no. of items
+
+numbers = [1, 2, 3, 4, 5]
+numbers.append(6)   # this one adds 6 in the end
+print(numbers)
+numbers.insert(0, -1)
+print(numbers)    # this will executed the numbers with -1 in the bag inning
+numbers.remove(4)
+print(numbers)    # this removes 4 from the result
+numbers.clear()
+print(numbers)   # this will print none like nothing becauseit will clear/erase all the numbers
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(3 in numbers)   # this will check if 3 is in there, true or false
+print(len(numbers))   # this will show the number of items
+
+# for loops
+names = ["a", "b", "c", "d", "e"]
+for items in names:
+	print(items)
+
+#let me try
+students = ["vinci", "meoww", "arff"]
+for students in students:
+	print("Hello,", students + "!")
+# idea from chatgpt, strings can't be concatenated with list
+
+# let me try again
+rizz = ["summer", "winter", "spring", "fall"]
+for rizz in rizz:
+	print("have you eaten,", rizz + "?")
+
+# range function 
+numbers = range(5)
+print(numbers)
+# this will execute 0, 5 use loops to see all the numbers
+numbers = range(8)
+for number in numbers:
+	print(number)
+# this will print 1 to 8
+# for two values (start, end)
+numbers = range(2, 5)
+for number in numbers:
+	print(number)
+#this can be three
+numbers = range(6,18,2)
+for number in numbers:
+	print(number)
+# this will print 6, 8, 10, 12... so on the 2 is the step
+# you can also do it like this
+for number in range(20):
+	print(number)
+# this will print 1 to 20
+
+
+# tuples (use to store a sequence like list but this is unchangeable or immutable)
+# () for tuples
+numbers = (1, 2, 3, 3, 4, 5)
+print(numbers.count(3))
+# this will show 2 because 3 appears two times, count is used to know the number of appearance of the elements 
+print(numbers.index(5))
+# this will show 5 because the number 5 is in the fifth place, index is used to know the first appear of the elements 
