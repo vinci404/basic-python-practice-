@@ -80,7 +80,7 @@ print(not english == 99) # true because english is not equal in 99
 
 temperature = 38
 if temperature > 35: #dont forget the colon
-	print("hot day") # this will going to be executed I'd the code is true
+	print("hot day") # this will going to be executed if the code is true
 elif temperature < 30:
 	print("a bit cold") # this will executed if the code is not true
 	
